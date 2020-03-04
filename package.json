@@ -1,0 +1,20 @@
+{
+  "name": "artillery-test",
+  "version": "1.0.0",
+  "description": "Artillery.io test",
+  "scripts": {
+    "test": "artillery run ./tests/hello.yml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/urielabin/artillery-test.git"
+  },
+  "author": "urielabin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/urielabin/artillery-test/issues"
+  },
+  "devDependencies": {
+    "artillery": "^1.6.0-29"
+  }
+}
