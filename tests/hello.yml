@@ -1,5 +1,7 @@
 config:
     target: 'https://artillery.io'
+    plugins:
+        expect: {}
     phases:
       - duration: 60
         arrivalRate: 20
@@ -10,3 +12,5 @@ scenarios:
     - flow:
       - get:
           url: "/docs"
+          expect:
+            - statusCode: 200
